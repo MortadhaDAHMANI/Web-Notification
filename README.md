@@ -1,5 +1,5 @@
 # Web-Notification
-The simple JavaScript notifications for Web support with img src and font awesome icons
+The simple JavaScript notifications for Web support with image and font awesome icons
 
 ![alt iviny](https://raw.githubusercontent.com/MortadhaDAHMANI/Web-Notification/main/notif.png)
 
@@ -35,8 +35,6 @@ notifAllf('', 'ICO [On]','<i class="fa-solid fa-paper-plane fa-xl"></i>', 'info'
 | fa-lg | 1.25em | 20px|
 | fa-xl | 1.5em | 24px|
 | fa-2xl | 2em | 32px|
-
-
 
 
 ### Useful links
