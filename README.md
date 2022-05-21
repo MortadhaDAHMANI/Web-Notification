@@ -1,10 +1,31 @@
 # Web-Notification
 The simple JavaScript notifications for Web support with img src and font awesome icons
 
+![alt iviny](https://raw.githubusercontent.com/MortadhaDAHMANI/Web-Notification/main/notif.png)
 
-#### Debug
-- [https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.css](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.css)
+## Quick Start
 
+### With image steps
+1. jquery.notify.css `<link type="text/css" rel='stylesheet' href="./jquery.notify.css"/>`
+3. jquery.min.js `<script type="text/javascript" src="./jquery.min.js"></script>`
+4. jquery.notify.min.js `<script type="text/javascript" src="./jquery.notify.min.js"></script>`
+5. mynotify.js `<script type="text/javascript" src="./mynotify.js"></script>`
+6. use notifAll to display a notify for info, success, warning or error
+
+```js
+// Display an info notif with no title IMG | (n2 is a name of png/jpg file)/(time in the ms)
+notifAll('', 'IMG [On]','n2', 'info', 10000, false, true,false,"right", "bottom");
+```
+### With font awesome steps
+1. `<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.js"></script>`
+2. `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css" />`
+3. `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.css" />`
+4. `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/regular.css" />`
+
+```js
+// Display an info notif with no title FA <i> | (n2 is a name of png/jpg file)/(time in the ms)
+notifAllf('', 'ICO [On]','<i class="fa-solid fa-paper-plane fa-xl"></i>', 'info', 10000, false, true,false,"right", "bottom");
+```
 
 #### Size
 | Fa    |  em | px |
@@ -16,10 +37,15 @@ The simple JavaScript notifications for Web support with img src and font awesom
 | fa-2xl | 2em | 32px|
 
 
+
+
 ### Useful links
 * [Font Awesome](https://fontawesome.com/icons/ "Font Awesome ico")
 * [Font Awesome Github](https://github.com/FortAwesome/Font-Awesome "Font Awesome Github")
 * [CDN](https://cdnjs.com/libraries/font-awesome "CDN")
+
+#### Debug
+- [https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.css](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.css)
 
 ### Donation
 If this project help you, you can give me a tip ;)
